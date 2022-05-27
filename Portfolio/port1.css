@@ -1,0 +1,121 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+    
+} 
+body{
+    background-image: url(https://wallpapercave.com/wp/wp2123032.jpg);
+    color:white;
+  
+}
+.nav,a{
+    color:white;
+}
+
+.nav{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    /* background-color: rgb(59, 117, 67); */
+}
+.box .nav .logo img{
+    margin:10px;
+    padding:20px;
+    width: 200px; 
+    height:200px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+   
+}
+li{
+    list-style:hide;
+}
+
+a:hover{
+    text-decoration: none;
+    color: rgb(237, 12, 12);
+}
+.box .nav .menu{
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding:50px;
+   
+    
+}
+.box .nav .menu ul>li{
+    display: inline-flex;
+    justify-items: center;
+   
+}
+.box .nav .menu ul>li:hover{
+    
+}
+.middle{
+    margin-left:500px;
+    padding:20px;
+    width:500px;
+    height:500px;
+    /* background-color:blue; */
+    display: flex;
+    flex-direction: column;
+    gap:150px;
+   /* align-content:space-between; */
+    /* background-color: aqua; */
+    
+    
+}
+   
+
+
+.myself {
+    /* margin-left: 100px; */
+    display: flex;
+    justify-content: center;
+    
+}
+.myself  ul>li{
+    color: #1f1f25;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    /* display: inline-block; */
+    margin-bottom: 20px;
+    background: linear-gradient(120deg, #1c99fe 20.69%, #7644ff 50.19%,#fd4766 79.69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.middle .name .anoni{
+    font-size: 20px;
+    font-weight: bold;
+    background:linear-gradient(120deg,orange,white,green) ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 10px;
+    
+}
+.rec{
+    margin:10px;
+    padding: 20px;
+    position:absolute;
+    display: flex;
+   
+    align-items: center;
+    width: 500px;
+    height:450px;
+    overflow:hidden;  
+   /* border-style:dotted dashed dotted dashed; */
+    background-color: black;
+    
+
+}
